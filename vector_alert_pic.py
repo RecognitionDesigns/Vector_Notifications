@@ -5,8 +5,8 @@ import anki_vector
 from anki_vector.util import degrees, Angle, Pose
 import time
 import requests
-from keys import (token, user)
-from serials import (N7N9)
+from key import (token, user)
+from serial import (<ROBOT NAME HERE>)
 
 n = 0
 
@@ -49,6 +49,6 @@ def count(n):
         else:
             count(n)
 
-with anki_vector.Robot(N7N9) as robot:
+with anki_vector.Robot(<ROBOT NAME HERE>) as robot:
     robot.conn.release_control()
     count(n)
