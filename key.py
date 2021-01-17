@@ -1,0 +1,2 @@
+token   = 'API TOKEN GOES HERE'
+user    = 'API USER KEY GOES HERE'
